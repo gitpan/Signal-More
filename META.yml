@@ -1,0 +1,29 @@
+---
+abstract: 'Various signal handling functions'
+author:
+  - 'Leon Timmermans <fawaka@gmail.com>'
+build_requires:
+  ExtUtils::CBuilder: 0
+  File::Find: 0
+  File::Temp: 0
+  Module::Build: 0.28
+  POSIX: 0
+  Test::More: 0
+  Time::HiRes: 0
+configure_requires:
+  Module::Build: 0.28
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200000, CPAN::Meta::Converter version 2.101670'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Signal-More
+requires:
+  Sub::Exporter: 0
+  XSLoader: 0
+  perl: 5.006
+resources:
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Signal-More
+  repository: git://github.com/Leont/signal-more.git
+version: 0.001
