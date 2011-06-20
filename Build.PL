@@ -12,6 +12,7 @@ my %module_build_args = (
     'File::Temp' => '0',
     'Module::Build' => '0.28',
     'POSIX' => '0',
+    'Test::Exception' => '0',
     'Test::More' => '0',
     'Time::HiRes' => '0'
   },
@@ -23,7 +24,7 @@ my %module_build_args = (
     'Leon Timmermans <fawaka@gmail.com>'
   ],
   'dist_name' => 'Signal-More',
-  'dist_version' => '0.001',
+  'dist_version' => '0.002',
   'license' => 'perl',
   'module_name' => 'Signal::More',
   'recommends' => {},
