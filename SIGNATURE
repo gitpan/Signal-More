@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.63.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,25 +14,25 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 51c8a24711ed3e691046dc2267fa1533808e6208 Build.PL
-SHA1 3dd71d6635c8c68b255fbd0ddb9a77e0a6f97002 Changes
-SHA1 5ecf683d0174af998b9e210d58e137e1c95448aa LICENSE
+SHA1 bacf1f3be43ab996de5dd4d747ade3f6d7f3f11c Build.PL
+SHA1 860f18fae5d1eff98060ca3123b87496f432ab8b Changes
+SHA1 4dde25b9538eaab37558ffc59119b7e8e26e47af LICENSE
 SHA1 c511b1376f0daee6973c5be32c49a30a73702b73 MANIFEST
-SHA1 ef4b23f60cdfa0b7d43361a9da1468b49f91f575 META.json
-SHA1 918969a9777ca505c46047a4d0a50a77af5f905e META.yml
-SHA1 022c652c91d52bb315371e3f561f620383e01254 README
+SHA1 e2822637d0c7c6dd97010074c106af864b5082b8 META.json
+SHA1 f809afe82d13d8918a5cd1fcfb374071acf4a611 META.yml
+SHA1 4fbea4d0c911b84144ba18218e20af219c56989d README
 SHA1 fc83c747c286ba68cfb11ffdac0e4c79cabc82e2 dist.ini
-SHA1 df8b48696f37657ce0fd6a9ed2c9097d7352a0fc lib/Signal/More.pm
-SHA1 da23db952c6739bf2e82dab611062fa50b5790dd lib/Signal/More.xs
-SHA1 4109a40487f3b25fcdc748d596382e43c426583c t/00-compile.t
-SHA1 bff26605736556b61c136930c3f36477bd374637 t/10-basics.t
+SHA1 e320be2e62cb5650863b230bb693935d4ec05f33 lib/Signal/More.pm
+SHA1 af072067348677477052e50436d64d5840bc2e45 lib/Signal/More.xs
+SHA1 59e583080b78d9a725e706c67330261774c36939 t/00-compile.t
+SHA1 6d989dc34af2892911fbffb6471db73393b44614 t/10-basics.t
 SHA1 747a8ac1b044725b7cb687748e1c46dc594427b4 t/release-kwalitee.t
 SHA1 12ca4519ecf9b07b5d535b80c2c718aa1721f2a5 t/release-pod-coverage.t
 SHA1 8c4ae77e60c6774264e29bff272bb7aa0a72e279 t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (GNU/Linux)
+Version: GnuPG v1.4.11 (GNU/Linux)
 
-iEYEARECAAYFAk3/raIACgkQTd+EWiaICwofRgCgn7y3B18MT6He10USncaSZ7/g
-oygAoLzLiuPECnrCEPBYyXRwDhf//Ewf
-=aNni
+iEYEARECAAYFAk4MdGQACgkQTd+EWiaICwrQGwCgiPaIRvCIsl8WQ5gkXfMSXqfe
+9B4An24Q0aRdBWWA61D/1Pld7aXPNzjJ
+=Blfi
 -----END PGP SIGNATURE-----

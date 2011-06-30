@@ -13,10 +13,11 @@ use warnings;
 use Test::More tests => 13;
 use Test::Exception;
 use Signal::More qw/sigwait sigqueue/;
-use POSIX qw/sigprocmask SIG_BLOCK SIG_UNBLOCK SIGUSR1 SIGALRM/;
+use POSIX qw/sigprocmask SIG_BLOCK SIG_UNBLOCK SIGUSR1 SIGALRM setlocale LC_ALL/;
+
 use Time::HiRes qw/alarm/;
 
-sub foo { 1 }
+setlocale(LC_ALL, 'C');
 
 {
 	my $status = 1;
@@ -54,7 +55,7 @@ sub foo { 1 }
 	sigprocmask(SIG_UNBLOCK, $sigset);
 }
 
-throws_ok { sigqueue($$, -1) } qr/Couldn't sigqueue: Invalid argument/, 'sigqueue dies on error in void context';
+throws_ok { sigqueue($$, 65536) } qr/Couldn't sigqueue: Invalid argument/, 'sigqueue dies on error in void context';
 
 {
 	my $sigset = POSIX::SigSet->new(SIGUSR1);

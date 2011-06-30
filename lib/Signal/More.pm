@@ -8,7 +8,7 @@
 #
 package Signal::More;
 BEGIN {
-  $Signal::More::VERSION = '0.002';
+  $Signal::More::VERSION = '0.003';
 }
 
 use strict;
@@ -35,7 +35,7 @@ Signal::More - Various signal handling functions
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
