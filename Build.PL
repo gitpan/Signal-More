@@ -24,7 +24,7 @@ my %module_build_args = (
     'Leon Timmermans <fawaka@gmail.com>'
   ],
   'dist_name' => 'Signal-More',
-  'dist_version' => '0.003',
+  'dist_version' => '0.004',
   'license' => 'perl',
   'module_name' => 'Signal::More',
   'recommends' => {},
@@ -32,7 +32,9 @@ my %module_build_args = (
   'requires' => {
     'Sub::Exporter' => '0',
     'XSLoader' => '0',
-    'perl' => '5.006'
+    'perl' => '5.006',
+    'strict' => '0',
+    'warnings' => '0'
   },
   'script_files' => []
 );
